@@ -1,3 +1,4 @@
+#Python script. No bash commands like the previous version. The execution is VERY slow. Performance wise 1st script is better.
 from StringIO import StringIO    
 import pycurl
 import os
