@@ -1,3 +1,5 @@
+#This is the first script. It uses curl on linux kernel(meant for linux only).
+#I used python to execute bash commands(I should have made a bash script).
 import os
 print("Enter X for proxy X._._._:_")
 a=input()
