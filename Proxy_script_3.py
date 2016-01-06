@@ -1,3 +1,4 @@
+#Improved the first script (Proxies are a necessity, so I am choosing effective code over beautiful code here).
 import os
 print("Enter X for proxy X._._._:_")
 a=input()
