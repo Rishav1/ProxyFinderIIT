@@ -17,9 +17,7 @@ for i in range(I,254):
 	for j in range(J,254):
 		print("Testing proxy :> "+str(a)+"."+str(b)+"."+str(i)+"."+str(j)+":"+str(p))
 		com1="http_proxy=http://"+str(a)+"."+str(b)+"."+str(i)+"."+str(j)+":"+str(p)+"/ curl -s --connect-timeout "+str(t)+" www.google.com; echo $?>~/Desktop/temp.txt "
-		os.system(com1)
-		Myfile=open("/home/rishav/Desktop/temp.txt","r")
-		read=Myfile.read()
+		read=os.popen(com1).read();
 		if(read=="0\n"):
 			com2="echo "+str(a)+"."+str(b)+"."+str(i)+"."+str(j)+":"+str(p)+">>~/Desktop/Proxy_list.txt"
 			os.system(com2)
