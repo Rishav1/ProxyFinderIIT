@@ -72,17 +72,17 @@ start()
     if [ ! -f $filename ]
     then
         echo "Generating list of proxies"
-        /usr/bin/proxy-search -f $filename -S
+        /usr/bin/proxy-search -f $filename -S -s $start_address $end_address
         if [ $? -ne 0 ]; then
             echo "Unable to find any proxy in the configured range. Try increasing the range or add more ports"
             exit 1
         fi        
     else
         echo "Updating list of proxies"
-        /usr/bin/proxy-search -f $filename -r -S
+        /usr/bin/proxy-search -f $filename -r -S -s $start_address $end_address
         if [ $? -ne 0 ]; then
             echo "No proxies found. Doing a full subnet search."
-            /usr/bin/proxy-search -f $filename -S
+            /usr/bin/proxy-search -f $filename -S -s $start_address $end_address
             if [ $? -ne 0 ]; then
                 echo "Unable to find any proxy in the configured range. Try increasing the range or add more ports"
                 exit 1
