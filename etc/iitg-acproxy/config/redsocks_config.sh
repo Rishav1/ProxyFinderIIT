@@ -4,7 +4,7 @@ echo "
 base {
 	log_debug = off;
 	log_info = off;
-	log = debug;
+	log = stderr;
 	daemon = off;
 	redirector = iptables;
 }

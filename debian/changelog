@@ -1,4 +1,4 @@
-iitg-acproxy (0.1) trusty; urgency=medium
+iitg-acproxy (1.0-2~ppa1~ubuntu16.04) xenial; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
 
