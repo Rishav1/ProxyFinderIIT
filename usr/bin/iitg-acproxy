@@ -1,0 +1,238 @@
+#!/bin/bash
+
+# execute with privileges only
+if [ $EUID != 0 ]; then
+    sudo bash "$0" "$@"
+    exit $?
+fi
+
+usage()
+{
+    echo "Usage: $0 [--config] {start, stop, restart, status}"
+    echo 
+    echo "  --config            configure the proxy subnet search parameters"
+    echo "  start               start the automatic configured proxy"
+    echo "  stop                stop the automatic configured proxy"
+    echo "  restart             restart the automatic configured proxy"
+    echo "  status              see the status of the proxy server"    
+    exit 1
+}
+
+
+
+config()
+{
+    echo -n "Configure the search parameters"
+
+    echo -n "Lists of ports :"
+    read ports
+    sudo sed -i "s/ports=.*/ports=\"$ports\"/g" /etc/iitg-acproxy/config/config.sh
+    
+
+    echo -n "Subnet Start IP : "
+    read proxy_server
+    if [[ $proxy_server =~ ^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$ ]]
+    then
+        sudo sed -i "s/start_address=.*/start_address=$proxy_server/g" /etc/iitg-acproxy/config/config.sh
+    else
+        echo "invalid proxy address"
+        echo $proxy_server
+        exit -1
+    fi
+
+    echo -n "Subnet End IP : "
+    read proxy_server
+    if [[ $proxy_server =~ ^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$ ]]
+    then
+        sudo sed -i "s/end_address=.*/end_address=$proxy_server/g" /etc/iitg-acproxy/config/config.sh
+    else
+        echo "invalid proxy address"
+        echo $proxy_server
+        exit -1
+    fi
+
+
+}
+
+
+start_redsocks()
+{
+    redsocks -c /etc/iitg-acproxy/config/redsocksauto.conf &
+}
+
+start_fakeDNS()
+{
+    sudo python -u /etc/iitg-acproxy/src/py/fake_dns.py /etc/iitg-acproxy/log/pid | sudo tee /etc/iitg-acproxy/log/dns &
+}
+
+start()
+{
+    source /etc/iitg-acproxy/config/config.sh
+
+    if [ ! -f $filename ]
+    then
+        echo "Generating list of proxies"
+        /usr/bin/proxy-search -f $filename -S
+        if [ $? -ne 0 ]; then
+            echo "Unable to find any proxy in the configured range. Try increasing the range or add more ports"
+            exit 1
+        fi        
+    else
+        echo "Updating list of proxies"
+        /usr/bin/proxy-search -f $filename -r -S
+        if [ $? -ne 0 ]; then
+            echo "No proxies found. Doing a full subnet search."
+            /usr/bin/proxy-search -f $filename -S
+            if [ $? -ne 0 ]; then
+                echo "Unable to find any proxy in the configured range. Try increasing the range or add more ports"
+                exit 1
+            fi
+        fi
+    fi
+    proxy=$(head -n1 $filename)
+
+    proxy_IP=${proxy%[:][0-9]*}
+    proxy_port=${proxy##*:}
+
+    sudo chown root:root -R /var/log
+    sudo chmod 777 -R /var/log
+
+    # Killing redsocks, if running
+    if pgrep "redsocks" > /dev/null
+    then
+        sudo killall -I redsocks
+    fi
+
+    # Killing fake DNS server, if running
+    sudo fuser -k 7613/udp
+
+    echo "Tproxy" | sudo tee /etc/iitg-acproxy/log/tproxy
+
+    echo "Configuring iptables ..." | sudo tee -a /etc/iitg-acproxy/log/tproxy
+    . /etc/iitg-acproxy/src/bash/script.sh start > /dev/null &
+
+    echo "Configuring redsocks ..." | sudo tee -a /etc/iitg-acproxy/log/tproxy
+    . /etc/iitg-acproxy/config/redsocks_config.sh $proxy_IP $proxy_port $proxy_username $proxy_password | sudo tee /etc/iitg-acproxy/log/redsocks > /dev/null
+    
+    start_redsocks >> /dev/null 2>&1  
+
+    echo "redsocks configured successfully" | sudo tee -a /etc/iitg-acproxy/log/tproxy
+
+    echo "initiating fake DNS server ..." | sudo tee -a /etc/iitg-acproxy/log/tproxy
+
+    start_fakeDNS >> /dev/null 2>&1
+
+    echo "DNS server initiated" | sudo tee -a /etc/iitg-acproxy/log/tproxy
+
+    echo "Starting dnsmasq on all open interfaces ..." | sudo tee -a /etc/iitg-acproxy/log/tproxy
+
+    echo "Transparent proxy initiated, running in background" | sudo tee -a /etc/iitg-acproxy/log/tproxy
+
+    echo "Done !!"
+}
+
+stop()
+{
+    echo "Reseting iptables ..." | sudo tee -a /etc/iitg-acproxy/log/tproxy    
+    . /etc/iitg-acproxy/src/bash/script.sh stop >> /dev/null 2>&1
+
+    # Killing redsocks
+    if pgrep "redsocks" > /dev/null
+    then
+        sudo killall redsocks
+    fi
+
+    # Killing fake DNS server
+    if [ -f /etc/iitg-acproxy/log/pid ]
+    then
+        sed 's|[0-9]*|sudo kill &|g' /etc/iitg-acproxy/log/pid | bash
+        rm -rf /etc/iitg-acproxy/log/pid
+
+    fi
+
+    echo "Transparent proxy stopped." | sudo tee -a /etc/iitg-acproxy/log/tproxy
+}
+
+restart()
+{
+    stop
+    start
+}
+
+status()
+{
+    if [ -f /etc/iitg-acproxy/log/pid ]
+    then
+        if ps -p $(cat /etc/iitg-acproxy/log/pid) > /dev/null
+        then
+            echo "running"
+        else
+            sudo bash /etc/iitg-acproxy/src/bash/stop.sh >> /dev/null 
+            echo "not running"
+        fi
+    else
+        echo "not running"
+    fi
+}
+
+
+while [[ "$1" != "" ]]; do
+    case $1 in
+        -c | --config     )     config
+                                ;;
+        -h | --help )           usage
+                                exit 0
+                                ;;
+        start       )           start 
+                                exit 0
+                                ;;
+        stop        )           stop 
+                                exit 0
+                                ;;
+        restart     )           restart
+                                exit 0
+                                ;;
+        status      )           status
+                                exit 0
+                                ;;
+        *       )               usage
+                                exit 1
+    esac
+    shift
+done
+
+
+: <<=cut
+=pod
+
+=head1 NAME
+
+   iitg-acproxy - Auto Configure proxy settings for Indian Institute of Technology. This utility discovers proxy and can 
+   be used to bypass time restriction on internet.
+
+=head1 SYNOPSIS
+
+   proxy-search [--config] {start, stop, restart, status}
+
+   Recognized optional command line arguments
+      -config           -- Configure subnet, ports and timeout setting for proxy search.
+      
+=head1 DESCRIPTION
+
+iitg-acproxy uses proxy-search utility to discover open proxies in a provided subnet and uses it to redirect all http/https
+connections via redsocks. This obviates the need for setting proxies in different applications. Also it uses TCP dns server
+instead of a local one, obviating the need of configuring local DNS as well.
+
+=head2 Requirements
+
+Requires proxy-search and redsocks.
+
+=head1 LICENSE
+
+License GPL-2+ https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+=head1 AUTHOR
+
+Rishav Chourasia <rishav.chourasia@gmail.com>
+
+=cut

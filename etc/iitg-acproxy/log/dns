@@ -1,0 +1,1842 @@
+DNS server running on port 7613.
+Default IPs loaded
+ws.gitter.im
+play.google.com
+200    52.6.20.193     ws.gitter.im   
+200    172.217.16.206  play.google.com
+github.com
+200    192.30.253.113  github.com     
+live.github.com
+assets-cdn.github.com
+200    192.30.253.124  live.github.com
+200    151.101.0.133   assets-cdn.github.com
+mtalk.google.com
+ads.nexage.com
+b-api.facebook.com
+api.facebook.com
+200    64.233.166.188  mtalk.google.com
+200    158.85.32.58    ads.nexage.com 
+graph.facebook.com
+graph.facebook.com
+200    185.60.216.35   b-api.facebook.com
+200    185.60.216.15   graph.facebook.com
+200    185.60.216.15   graph.facebook.com
+200    185.60.216.15   api.facebook.com
+cr-b.hvrzm.com
+200    34.198.81.156   cr-b.hvrzm.com 
+item.kakao.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+200    210.103.240.15  item.kakao.com 
+clients4.google.com
+200    172.217.16.206  clients4.google.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+beacons.gcp.gvt2.com
+200    172.217.18.163  beacons.gcp.gvt2.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+feeds.bbci.co.uk
+200    172.227.98.43   feeds.bbci.co.uk
+update.googleapis.com
+200    172.217.16.195  update.googleapis.com
+redirector.gvt1.com
+200    172.217.16.206  redirector.gvt1.com
+r3---sn-o3o-jj0l.gvt1.com
+200    180.149.55.142  r3---sn-o3o-jj0l.gvt1.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+gitter.im
+200    52.70.52.152    gitter.im      
+gld.push.samsungosp.com
+200    52.17.222.120   gld.push.samsungosp.com
+Hit    172.217.16.206       play.google.com
+realtime.services.disqus.com
+200    169.44.99.105   realtime.services.disqus.com
+www.googleapis.com
+200    172.217.21.202  www.googleapis.com
+Hit    192.30.253.113       github.com     
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+safebrowsing.googleapis.com
+avatars3.githubusercontent.com
+avatars0.githubusercontent.com
+200    172.217.16.202  safebrowsing.googleapis.com
+200    151.101.0.133   avatars3.githubusercontent.com
+200    151.101.0.133   avatars0.githubusercontent.com
+Hit    192.30.253.124       live.github.com
+Hit    192.30.253.124       live.github.com
+9.client-channel.google.com
+200    74.125.206.189  9.client-channel.google.com
+clients6.google.com
+hangouts.google.com
+200    172.217.16.206  clients6.google.com
+200    172.217.16.206  hangouts.google.com
+Hit    172.217.16.206       clients4.google.com
+Hit    192.30.253.113       github.com     
+avatars1.githubusercontent.com
+200    151.101.0.133   avatars1.githubusercontent.com
+Hit    192.30.253.124       live.github.com
+27.client-channel.google.com
+200    74.125.206.189  27.client-channel.google.com
+Hit    172.217.16.206       play.google.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+www.google.com
+200    172.217.16.196  www.google.com 
+ogs.google.com
+200    172.217.16.206  ogs.google.com 
+ubuntuforums.org
+200    91.189.94.12    ubuntuforums.org
+Hit    172.217.21.202       www.googleapis.com
+fonts.googleapis.com
+connect.facebook.net
+200    185.60.216.19   connect.facebook.net
+200    172.217.16.202  fonts.googleapis.com
+fonts.gstatic.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+200    172.217.16.195  fonts.gstatic.com
+staticxx.facebook.com
+200    157.240.1.23    staticxx.facebook.com
+www.facebook.com
+200    185.60.216.35   www.facebook.com
+static.xx.fbcdn.net
+200    185.60.216.19   static.xx.fbcdn.net
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+lists.debian.org
+200    82.195.75.100   lists.debian.org
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    192.30.253.113       github.com     
+Hit    151.101.0.133        avatars3.githubusercontent.com
+Hit    151.101.0.133        avatars0.githubusercontent.com
+ntp.ubuntu.com
+ntp.ubuntu.com
+Hit    151.101.0.133        avatars1.githubusercontent.com
+200    91.189.89.199   ntp.ubuntu.com 
+200    91.189.94.4     ntp.ubuntu.com 
+Hit    151.101.0.133        assets-cdn.github.com
+Hit    192.30.253.124       live.github.com
+avatars2.githubusercontent.com
+200    151.101.0.133   avatars2.githubusercontent.com
+Hit    192.30.253.124       live.github.com
+apis.google.com
+200    172.217.16.206  apis.google.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+lintian.debian.org
+200    130.89.148.14   lintian.debian.org
+Hit    52.70.52.152         gitter.im      
+Hit    64.233.166.188       mtalk.google.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    192.30.253.113       github.com     
+Hit    192.30.253.124       live.github.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    192.30.253.113       github.com     
+clientservices.googleapis.com
+200    172.217.16.195  clientservices.googleapis.com
+Hit    192.30.253.124       live.github.com
+Hit    172.217.16.196       www.google.com 
+ssl.gstatic.com
+200    172.217.16.195  ssl.gstatic.com
+Hit    172.217.16.206       play.google.com
+Hit    172.217.21.202       www.googleapis.com
+manpages.ubuntu.com
+200    91.189.95.15    manpages.ubuntu.com
+cse.google.com
+200    172.217.16.206  cse.google.com 
+tldp.org
+200    152.19.134.41   tldp.org       
+manpages.debian.org
+200    130.89.148.14   manpages.debian.org
+Hit    172.217.16.206       clients6.google.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    52.17.222.120        gld.push.samsungosp.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    52.70.52.152         gitter.im      
+google.com
+200    172.217.16.206  google.com     
+Hit    172.217.16.206       play.google.com
+notifications.google.com
+200    172.217.16.206  notifications.google.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.16.196       www.google.com 
+askubuntu.com
+Hit    172.217.16.206       clients4.google.com
+200    151.101.1.69    askubuntu.com  
+www.gravatar.com
+i.stack.imgur.com
+200    192.0.73.2      www.gravatar.com
+cdn.sstatic.net
+200    104.16.111.18   i.stack.imgur.com
+200    151.101.1.69    cdn.sstatic.net
+clients1.google.com
+qa.sockets.stackexchange.com
+200    172.217.16.206  clients1.google.com
+200    198.252.206.25  qa.sockets.stackexchange.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.16.196       www.google.com 
+Hit    130.89.148.14        manpages.debian.org
+blog.packagecloud.io
+200    208.94.117.19   blog.packagecloud.io
+Hit    172.217.16.202       fonts.googleapis.com
+ajax.googleapis.com
+200    172.217.22.74   ajax.googleapis.com
+Hit    172.217.16.195       fonts.gstatic.com
+themes.googleusercontent.com
+feedburner.google.com
+200    172.217.16.193  themes.googleusercontent.com
+200    172.217.16.206  feedburner.google.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    210.103.240.15       item.kakao.com 
+cuscochromeextension-pa.googleapis.com
+200    172.217.16.170  cuscochromeextension-pa.googleapis.com
+Hit    172.217.16.206       notifications.google.com
+Hit    91.189.95.15         manpages.ubuntu.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+www.unix.com
+200    4.59.125.171    www.unix.com   
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+linux.die.net
+200    104.25.170.11   linux.die.net  
+Hit    172.217.16.206       cse.google.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+ryanstutorials.net
+200    207.58.132.136  ryanstutorials.net
+platform.twitter.com
+Hit    172.217.22.74        ajax.googleapis.com
+200    199.96.57.6     platform.twitter.com
+www.zyxware.com
+200    173.230.153.93  www.zyxware.com
+maxcdn.bootstrapcdn.com
+cdn.jsdelivr.net
+200    108.161.189.121 maxcdn.bootstrapcdn.com
+www.gstatic.com
+200    151.101.2.109   cdn.jsdelivr.net
+Hit    172.217.16.195       fonts.gstatic.com
+200    172.217.16.195  www.gstatic.com
+Hit    172.217.16.196       www.google.com 
+csi.gstatic.com
+200    216.58.212.131  csi.gstatic.com
+twitter.com
+200    104.244.42.129  twitter.com    
+abs.twimg.com
+200    192.229.233.50  abs.twimg.com  
+pbs.twimg.com
+200    104.244.46.39   pbs.twimg.com  
+ton.twimg.com
+200    192.229.233.50  ton.twimg.com  
+caps.twitter.com
+api.twitter.com
+200    199.16.156.9    caps.twitter.com
+200    104.244.42.194  api.twitter.com
+video.twimg.com
+200    104.244.46.231  video.twimg.com
+Hit    52.70.52.152         gitter.im      
+Hit    172.227.98.43        feeds.bbci.co.uk
+stackoverflow.com
+200    151.101.1.69    stackoverflow.com
+Hit    192.0.73.2           www.gravatar.com
+Hit    104.16.111.18        i.stack.imgur.com
+sources.debian.net
+200    130.89.148.14   sources.debian.net
+sources.debian.org
+200    5.153.231.38    sources.debian.org
+Hit    5.153.231.38         sources.debian.org
+Hit    172.217.16.206       play.google.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    52.17.222.120        gld.push.samsungosp.com
+Hit    172.217.16.196       www.google.com 
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+api.factual.com
+200    54.183.218.106  api.factual.com
+Hit    52.70.52.152         gitter.im      
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.206       play.google.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+detectportal.firefox.com
+detectportal.firefox.com
+200    2.17.201.9      detectportal.firefox.com
+200    2.17.201.9      detectportal.firefox.com
+tiles.services.mozilla.com
+tiles.services.mozilla.com
+200    54.148.131.146  tiles.services.mozilla.com
+200    54.148.131.146  tiles.services.mozilla.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+play.googleapis.com
+200    216.58.214.74   play.googleapis.com
+android.clients.google.com
+200    172.217.22.46   android.clients.google.com
+beacons5.gvt3.com
+200    104.237.191.1   beacons5.gvt3.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    91.189.94.4          ntp.ubuntu.com Hit    91.189.94.4          ntp.ubuntu.com 
+
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.16.206       clients4.google.com
+Hit    104.244.46.39        pbs.twimg.com  
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.206       clients6.google.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    185.60.216.15        api.facebook.com
+notifications5.truecaller.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    158.85.32.58         ads.nexage.com 
+200    192.121.90.160  notifications5.truecaller.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    172.217.21.202       www.googleapis.com
+www.debian.org
+200    5.153.231.4     www.debian.org 
+Hit    52.70.52.152         gitter.im      
+clients2.google.com
+200    172.217.16.206  clients2.google.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+Hit    172.217.16.196       www.google.com 
+bugs.debian.org
+200    140.211.166.201 bugs.debian.org
+Hit    172.217.16.206       apis.google.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.16.206       clients4.google.com
+Hit    192.30.253.113       github.com     
+Hit    151.101.0.133        avatars0.githubusercontent.com
+Hit    151.101.0.133        avatars1.githubusercontent.com
+Hit    151.101.0.133        avatars3.githubusercontent.com
+Hit    151.101.0.133        assets-cdn.github.com
+Hit    192.30.253.124       live.github.com
+Hit    192.30.253.113       github.com     
+Hit    192.30.253.113       github.com     
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.206       play.google.com
+Hit    34.198.81.156        cr-b.hvrzm.com 
+Hit    104.244.46.39        pbs.twimg.com  
+www.youtube.com
+200    172.217.23.174  www.youtube.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    185.60.216.35        b-api.facebook.com
+charlotte-ngs.github.io
+200    151.101.1.147   charlotte-ngs.github.io
+Hit    172.217.16.196       www.google.com 
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    172.217.21.202       www.googleapis.com
+Hit    185.60.216.15        api.facebook.com
+Hit    4.59.125.171         www.unix.com   
+Hit    172.217.16.206       clients1.google.com
+Hit    151.101.1.69         stackoverflow.com
+Hit    192.0.73.2           www.gravatar.com
+Hit    52.17.222.120        gld.push.samsungosp.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+gpgtools.org
+Hit    151.101.1.69         cdn.sstatic.net
+wiki.debian.orgpackaging.ubuntu.com
+
+www.king-foo.com
+dev.wine-staging.com
+summerofcode.withgoogle.com
+200    172.217.23.145  summerofcode.withgoogle.com
+200    95.143.172.182  gpgtools.org   
+cdn02.gitter.im
+developers.google.com
+200    82.195.75.112   wiki.debian.org
+www.cyberciti.biz
+200    176.62.173.231  www.king-foo.com
+www.brianstorti.com
+200    91.189.89.122   packaging.ubuntu.com
+aima.cs.berkeley.edu
+200    88.99.65.67     dev.wine-staging.com
+applygrad.cs.cmu.edu
+200    172.217.16.206  developers.google.com
+www.cs.ox.ac.uk
+200    104.20.186.5    www.cyberciti.biz
+200    52.85.219.162   cdn02.gitter.im
+200    192.30.252.154  www.brianstorti.com
+200    128.32.189.73   aima.cs.berkeley.edu
+200    129.67.151.1    www.cs.ox.ac.uk
+200    128.2.42.96     applygrad.cs.cmu.edu
+Hit    52.70.52.152         gitter.im      
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.16.206       notifications.google.com
+Hit    172.217.16.196       www.google.com 
+Hit    74.125.206.189       9.client-channel.google.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    172.217.21.202       www.googleapis.com
+unix.stackexchange.com
+200    151.101.1.69    unix.stackexchange.com
+Hit    192.0.73.2           www.gravatar.com
+Hit    172.217.16.196       www.google.com 
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    172.217.16.206       clients1.google.com
+Hit    104.16.111.18        i.stack.imgur.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    192.229.233.50       abs.twimg.com  
+Hit    172.217.16.195       fonts.gstatic.com
+Hit    172.217.22.74        ajax.googleapis.com
+Hit    172.217.16.202       fonts.googleapis.com
+Hit    104.244.42.194       api.twitter.com
+Hit    172.217.23.174       www.youtube.com
+Hit    104.244.46.231       video.twimg.com
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.206       clients6.google.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.16.206       clients4.google.com
+Hit    5.153.231.38         sources.debian.org
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+m.media-amazon.com
+Hit    172.217.22.46        android.clients.google.com
+mads.amazon-adsystem.com
+200    54.192.184.34   m.media-amazon.com
+200    52.94.224.25    mads.amazon-adsystem.com
+reports.crashlytics.com
+200    50.16.249.31    reports.crashlytics.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.16.206       notifications.google.com
+Hit    52.70.52.152         gitter.im      
+Hit    64.233.166.188       mtalk.google.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        graph.facebook.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    172.217.16.202       safebrowsing.googleapis.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    172.217.16.206       hangouts.google.com
+Hit    172.217.16.206       clients6.google.com
+Hit    172.217.16.206       clients4.google.com
+Hit    74.125.206.189       27.client-channel.google.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    172.217.16.206       google.com     
+Hit    130.89.148.14        manpages.debian.org
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    52.17.222.120        gld.push.samsungosp.com
+Hit    172.217.16.206       notifications.google.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    52.70.52.152         gitter.im      
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.21.202       www.googleapis.com
+Hit    130.89.148.14        lintian.debian.org
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    185.60.216.15        api.facebook.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    104.244.46.39        pbs.twimg.com  
+Hit    5.153.231.4          www.debian.org 
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.16.206       play.google.com
+Hit    130.89.148.14        lintian.debian.org
+Hit    172.217.16.206       apis.google.com
+Hit    5.153.231.4          www.debian.org 
+Hit    172.217.16.206       clients1.google.com
+qa.debian.org
+200    5.153.231.28    qa.debian.org  
+Hit    172.217.16.202       safebrowsing.googleapis.com
+Hit    82.195.75.112        wiki.debian.org
+Hit    64.233.166.188       mtalk.google.com
+Hit    82.195.75.112        wiki.debian.org
+help.launchpad.net
+200    91.189.89.69    help.launchpad.net
+licensebuttons.net
+200    104.25.7.12     licensebuttons.net
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    192.30.253.113       github.com     
+Hit    151.101.0.133        avatars0.githubusercontent.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    151.101.0.133        avatars1.githubusercontent.com
+Hit    172.217.16.206       notifications.google.com
+Hit    52.70.52.152         gitter.im      
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.196       www.google.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+translate.googleapis.com
+200    172.217.16.202  translate.googleapis.com
+Hit    172.217.22.46        android.clients.google.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    172.217.16.206       play.google.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    172.217.16.196       www.google.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.16.206       clients6.google.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    185.60.216.15        api.facebook.com
+Hit    216.58.214.74        play.googleapis.com
+Hit    172.217.22.46        android.clients.google.com
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.16.206       notifications.google.com
+Hit    172.217.16.206       play.google.com
+Hit    52.70.52.152         gitter.im      
+Hit    52.17.222.120        gld.push.samsungosp.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    64.233.166.188       mtalk.google.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.16.206       clients6.google.com
+Hit    91.189.89.69         help.launchpad.net
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+login.ubuntu.com
+200    162.213.33.100  login.ubuntu.com
+Hit    172.217.16.206       clients1.google.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        graph.facebook.com
+sb-ssl.google.com
+settings.crashlytics.com
+200    172.217.16.206  sb-ssl.google.com
+200    54.225.195.122  settings.crashlytics.com
+e.crashlytics.com
+Hit    162.213.33.100       login.ubuntu.com
+200    54.243.216.133  e.crashlytics.com
+pubads.g.doubleclick.net
+googleads.g.doubleclick.net
+200    172.217.16.194  pubads.g.doubleclick.net
+200    172.217.18.162  googleads.g.doubleclick.net
+Hit    162.213.33.100       login.ubuntu.com
+Hit    162.213.33.100       login.ubuntu.com
+Hit    162.213.33.100       login.ubuntu.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    104.237.191.1        beacons5.gvt3.com
+Hit    172.217.16.206       notifications.google.com
+app-measurement.com
+200    172.217.23.142  app-measurement.com
+Hit    162.213.33.100       login.ubuntu.com
+Hit    162.213.33.100       login.ubuntu.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    91.189.89.69         help.launchpad.net
+launchpad.net
+200    91.189.89.223   launchpad.net  
+login.launchpad.net
+200    162.213.33.98   login.launchpad.net
+Hit    172.217.16.206       google.com     
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    172.217.16.196       www.google.com 
+Hit    192.30.253.113       github.com     
+Hit    151.101.0.133        avatars3.githubusercontent.com
+Hit    151.101.0.133        avatars0.githubusercontent.com
+Hit    192.30.253.124       live.github.com
+Hit    192.30.253.124       live.github.com
+Hit    151.101.0.133        assets-cdn.github.com
+Hit    192.30.253.124       live.github.com
+Hit    91.189.89.223        launchpad.net  
+Hit    52.70.52.152         gitter.im      
+Hit    192.30.253.124       live.github.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+ productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    91.189.89.223        launchpad.net  
+Hit    185.60.216.15        graph.facebook.com
+Hit    172.217.18.162       googleads.g.doubleclick.net
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    172.217.22.46        android.clients.google.com
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    91.189.89.69         help.launchpad.net
+Hit    91.189.89.223        launchpad.net  
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    104.244.46.39        pbs.twimg.com  
+Hit    172.217.16.206       clients4.google.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    91.189.89.69         help.launchpad.net
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.206       play.google.com
+Hit    34.198.81.156        cr-b.hvrzm.com 
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    91.189.89.223        launchpad.net  
+Hit    162.213.33.98        login.launchpad.net
+Hit    172.217.16.206       clients1.google.com
+Hit    162.213.33.98        login.launchpad.net
+Hit    54.183.218.106       api.factual.com
+Hit    52.70.52.152         gitter.im      
+keyserver.ubuntu.com
+ keyserver.ubuntu.com
+pool.sks-keyservers.net
+pool.sks-keyservers.net
+keyserver.ubuntu.com
+keyserver.ubuntu.com
+200    91.189.90.55    keyserver.ubuntu.com
+200    91.189.90.55    keyserver.ubuntu.com
+200    174.127.245.27  pool.sks-keyservers.net
+200    176.9.147.41    pool.sks-keyservers.net
+200    91.189.89.49    keyserver.ubuntu.com
+200    91.189.90.55    keyserver.ubuntu.com
+Hit    52.17.222.120        gld.push.samsungosp.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    172.217.21.202       www.googleapis.com
+productsearch.ubuntu.com
+ productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.16.206       ogs.google.com 
+help.github.com
+Hit    172.217.21.202       www.googleapis.com
+200    151.101.0.133   help.github.com
+Hit    172.217.16.206       apis.google.com
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        api.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    151.101.1.69         askubuntu.com  
+Hit    192.0.73.2           www.gravatar.com
+Hit    172.217.16.206       clients1.google.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.16.206       google.com     
+Hit    172.217.16.206       notifications.google.com
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+www.joinfu.com
+200    173.236.225.145 www.joinfu.com 
+Hit    172.217.16.202       fonts.googleapis.com
+Hit    172.217.16.195       fonts.gstatic.com
+joinfu.disqus.com
+200    151.101.16.134  joinfu.disqus.com
+disqus.com
+c.disquscdn.com
+200    151.101.0.134   disqus.com     
+200    104.16.77.166   c.disquscdn.com
+Hit    74.125.206.189       9.client-channel.google.com
+Hit    91.189.89.223        launchpad.net  
+Hit    172.217.16.206       clients4.google.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    91.189.89.223        launchpad.net  
+Hit    162.213.33.98        login.launchpad.net
+www.googl.com
+www.googl.com
+200    172.217.23.131  www.googl.com  
+200    172.217.23.131  www.googl.com  
+Hit    172.217.16.206       play.google.com
+Hit    2.17.201.9           detectportal.firefox.com
+Hit    2.17.201.9           detectportal.firefox.com
+Hit    54.148.131.146       tiles.services.mozilla.com
+Hit    54.148.131.146       tiles.services.mozilla.com
+ocsp.digicert.com
+ocsp.digicert.com
+200    93.184.220.29   ocsp.digicert.com
+200    93.184.220.29   ocsp.digicert.com
+Hit    210.103.240.15       item.kakao.com 
+Hit    158.85.32.58         ads.nexage.com 
+Hit    185.60.216.15        graph.facebook.com
+Hit    185.60.216.35        b-api.facebook.com
+Hit    185.60.216.15        api.facebook.com
+Hit    172.217.16.206       google.com     
+Hit    74.125.206.189       9.client-channel.google.com
+daisy.ubuntu.comdaisy.ubuntu.com
+
+200    162.213.33.133  daisy.ubuntu.com
+200    162.213.33.133  daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+ Hit    162.213.33.133       daisy.ubuntu.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.16.206       clients4.google.com
+Hit    74.125.206.189       9.client-channel.google.com
+Hit    104.244.42.129       twitter.com    
+Hit    172.217.16.206       clients6.google.com
+Hit    172.217.16.206       play.google.com
+Hit    52.70.52.152         gitter.im      
+Hit    172.217.16.196       www.google.com 
+s2.googleusercontent.com
+200    172.217.16.193  s2.googleusercontent.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    172.217.21.202       www.googleapis.com
+Hit    151.101.1.69         stackoverflow.com
+Hit    104.16.111.18        i.stack.imgur.com
+Hit    192.0.73.2           www.gravatar.com
+Hit    151.101.1.69         askubuntu.com  
+Hit    172.217.16.206       clients1.google.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.16.206       google.com     
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+www.linuxquestions.org
+200    75.126.162.205  www.linuxquestions.org
+cdnjs.cloudflare.com
+lqo-thequestionsnetw.netdna-ssl.com
+account.thequestionsnetwork.org
+Hit    172.217.16.202       safebrowsing.googleapis.com
+200    104.19.193.102  cdnjs.cloudflare.com
+200    94.31.29.250    lqo-thequestionsnetw.netdna-ssl.com
+200    75.126.162.206  account.thequestionsnetwork.org
+Hit    91.189.94.12         ubuntuforums.org
+Hit    172.217.16.195       fonts.gstatic.com
+Hit    185.60.216.19        connect.facebook.net
+Hit    185.60.216.35        www.facebook.com
+Hit    172.217.16.195       clientservices.googleapis.com
+lists.gt.net
+200    172.255.51.119  lists.gt.net   
+Hit    104.237.191.1        beacons5.gvt3.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    172.217.16.206       clients6.google.com
+Hit    104.244.46.39        pbs.twimg.com  
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.16.196       www.google.com 
+www.supportsages.com
+200    158.69.207.96   www.supportsages.com
+ocsp.comodoca.com
+200    178.255.83.1    ocsp.comodoca.com
+Hit    172.217.16.202       fonts.googleapis.com
+Hit    172.217.16.195       fonts.gstatic.com
+supportsages.disqus.com
+200    151.101.16.134  supportsages.disqus.com
+support.supportsages.com
+Hit    151.101.0.134        disqus.com     
+Hit    104.16.77.166        c.disquscdn.com
+200    192.99.145.105  support.supportsages.com
+Hit    172.217.16.206       clients1.google.com
+glitter.services.disqus.com
+200    151.101.16.64   glitter.services.disqus.com
+Hit    52.70.52.152         gitter.im      
+Hit    74.125.206.189       27.client-channel.google.com
+lists.gnupg.org
+200    217.69.76.57    lists.gnupg.org
+www.reddit.com
+200    151.101.1.140   www.reddit.com 
+www.redditstatic.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+out.reddit.com
+b.thumbs.redditmedia.com
+200    151.101.1.140   www.redditstatic.com
+200    34.233.195.79   out.reddit.com 
+200    151.101.1.140   b.thumbs.redditmedia.com
+reddit.com
+200    151.101.129.140 reddit.com     
+c.thumbs.redditmedia.com
+e.reddit.com
+200    151.101.1.140   c.thumbs.redditmedia.com
+200    151.101.1.140   e.reddit.com   
+imgur.com
+200    151.101.16.193  imgur.com      
+Hit    172.217.16.206       google.com     
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.16.206       clients4.google.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+ productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.16.206       notifications.google.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.16.206       clients4.google.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.206       play.google.com
+Hit    162.213.33.98        login.launchpad.net
+Hit    91.189.89.223        launchpad.net  
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+Hit    172.217.21.202       www.googleapis.com
+help.ubuntu.com
+200    91.189.90.250   help.ubuntu.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    91.189.90.55         keyserver.ubuntu.com
+Hit    91.189.90.55         keyserver.ubuntu.com
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    172.217.21.202       www.googleapis.com
+Hit    151.101.1.69         askubuntu.com  
+Hit    192.0.73.2           www.gravatar.com
+Hit    104.16.111.18        i.stack.imgur.com
+Hit    172.217.16.206       clients1.google.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    52.70.52.152         gitter.im      
+Hit    208.94.117.19        blog.packagecloud.io
+Hit    172.217.16.195       fonts.gstatic.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    82.195.75.112        wiki.debian.org
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    172.217.16.206       apis.google.com
+Hit    192.0.73.2           www.gravatar.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    172.217.16.206       clients4.google.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    172.217.16.206       notifications.google.com
+serverfault.com
+200    151.101.1.69    serverfault.com
+Hit    151.101.1.69         cdn.sstatic.net
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    172.217.16.206       apis.google.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    91.189.94.12         ubuntuforums.org
+Hit    185.60.216.19        connect.facebook.net
+Hit    172.217.16.195       fonts.gstatic.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+Hit    185.60.216.35        www.facebook.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.206       google.com     
+Hit    52.70.52.152         gitter.im      
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+productsearch.ubuntu.com
+ productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+ productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.206       clients6.google.com
+Hit    91.189.90.250        help.ubuntu.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    172.217.16.206       google.com     
+Hit    74.125.206.189       9.client-channel.google.com
+pgpkey-http.tcp.keys.gnupg.net
+Exc                              pgpkey-http.tcp.keys.gnupg.net
+pgpkey-http.tcp.keys.gnupg.net
+Exc                              pgpkey-http.tcp.keys.gnupg.net
+Hit    91.189.90.55         keyserver.ubuntu.com
+Hit    91.189.90.55         keyserver.ubuntu.com
+Hit    52.70.52.152         gitter.im      
+Hit    91.189.89.223        launchpad.net  
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.16.206       notifications.google.com
+Hit    162.213.33.98        login.launchpad.net
+Hit    172.217.16.206       clients1.google.com
+Hit    91.189.89.223        launchpad.net  
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.16.193       s2.googleusercontent.com
+Hit    172.217.16.206       ogs.google.com 
+Hit    216.58.212.131       csi.gstatic.com
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+www.gmail.com
+200    172.217.23.133  www.gmail.com  
+mail.google.com
+200    172.217.16.197  mail.google.com
+www.inboxsdk.com
+mailfoogae.appspot.com
+200    172.217.23.147  www.inboxsdk.com
+200    172.217.23.148  mailfoogae.appspot.com
+Hit    172.217.16.195       www.gstatic.com
+Hit    172.217.16.195       ssl.gstatic.com
+Hit    172.217.16.206       clients2.google.com
+lh3.googleusercontent.com
+200    172.217.16.193  lh3.googleusercontent.com
+Hit    172.217.16.206       apis.google.com
+storage.googleapis.com
+200    172.217.16.208  storage.googleapis.com
+Hit    172.217.16.202       fonts.googleapis.com
+www.streak.com
+200    172.217.23.147  www.streak.com 
+Hit    172.217.16.195       fonts.gstatic.com
+pubsub.googleapis.com
+200    172.217.22.106  pubsub.googleapis.com
+securetoken.googleapis.com
+accounts.google.com
+200    216.58.207.42   securetoken.googleapis.com
+200    172.217.16.205  accounts.google.com
+headway-widget.net
+200    162.243.49.132  headway-widget.net
+Hit    172.217.16.206       clients6.google.com
+Hit    172.217.16.206       hangouts.google.com
+s-usc1c-nss-218.firebaseio.com
+plus.google.com
+200    35.201.97.85    s-usc1c-nss-218.firebaseio.com
+200    172.217.16.206  plus.google.com
+people-pa.clients6.google.com
+200    172.217.16.202  people-pa.clients6.google.com
+lh6.googleusercontent.com
+lh5.googleusercontent.com
+lh4.googleusercontent.com
+200    172.217.16.193  lh5.googleusercontent.com
+200    172.217.16.193  lh4.googleusercontent.com
+10.client-channel.google.com
+200    172.217.16.193  lh6.googleusercontent.com
+Hit    172.217.16.206       clients4.google.com
+200    74.125.206.189  10.client-channel.google.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+ productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.16.206       google.com     
+beacons3.gvt2.com
+200    172.217.23.131  beacons3.gvt2.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.206       apis.google.com
+Hit    172.217.16.197       mail.google.com
+Hit    104.237.191.1        beacons5.gvt3.com
+Hit    91.189.89.223        launchpad.net  
+code.launchpad.net
+200    91.189.89.224   code.launchpad.net
+Hit    172.217.16.193       s2.googleusercontent.com
+Hit    34.198.81.156        cr-b.hvrzm.com 
+Hit    202.141.81.145       jatinga.iitg.ernet.in
+Hit    172.217.21.202       www.googleapis.com
+blog.gauner.org
+200    46.4.125.236    blog.gauner.org
+Hit    172.217.16.202       fonts.googleapis.com
+Hit    108.161.189.121      maxcdn.bootstrapcdn.com
+Hit    104.19.193.102       cdnjs.cloudflare.com
+Hit    172.217.16.195       fonts.gstatic.com
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    52.70.52.152         gitter.im      
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    91.189.94.4          ntp.ubuntu.com 
+Hit    172.217.21.202       www.googleapis.com
+Hit    151.101.1.69         askubuntu.com  
+Hit    192.0.73.2           www.gravatar.com
+Hit    104.16.111.18        i.stack.imgur.com
+Hit    172.217.16.206       clients1.google.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+busoniu.net
+200    185.10.99.12    busoniu.net    
+Hit    88.99.65.67          dev.wine-staging.com
+Hit    172.217.23.145       summerofcode.withgoogle.com
+Hit    172.217.16.202       fonts.googleapis.comHit    172.217.16.195       www.gstatic.com
+
+Hit    172.217.16.195       fonts.gstatic.com
+Hit    52.70.52.152         gitter.im      
+cdn03.gitter.im
+cdn01.gitter.im
+Hit    52.85.219.162        cdn02.gitter.im
+200    13.32.153.182   cdn03.gitter.im
+200    13.32.153.219   cdn01.gitter.im
+avatars-04.gitter.im
+Hit    151.101.0.133        avatars0.githubusercontent.com
+Hit    151.101.0.133        avatars1.githubusercontent.com
+200    13.32.153.117   avatars-04.gitter.im
+Hit    151.101.0.133        avatars2.githubusercontent.com
+Hit    172.217.16.206       developers.google.com
+Hit    52.6.20.193          ws.gitter.im   
+Hit    172.217.16.193       lh3.googleusercontent.com
+avatars-05.gitter.im
+200    13.32.153.221   avatars-05.gitter.im
+Hit    192.30.253.113       github.com     
+Hit    172.217.16.193       lh6.googleusercontent.com
+Hit    128.32.189.73        aima.cs.berkeley.edu
+Hit    151.101.0.133        assets-cdn.github.com
+Hit    192.30.253.124       live.github.com
+Hit    202.141.81.145       jatinga.iitg.ernet.in
+Hit    128.2.42.96          applygrad.cs.cmu.edu
+Hit    129.67.151.1         www.cs.ox.ac.uk
+Hit    151.101.1.69         stackoverflow.com
+Hit    185.60.216.15        graph.facebook.com
+Hit    52.6.20.193          ws.gitter.im   
+scontent.xx.fbcdn.net
+Hit    172.217.16.193       lh5.googleusercontent.com
+200    185.60.216.19   scontent.xx.fbcdn.net
+avatars-03.gitter.im
+avatars-02.gitter.im
+avatars-01.gitter.im
+Hit    176.62.173.231       www.king-foo.com
+200    13.32.153.117   avatars-02.gitter.im
+200    13.32.153.177   avatars-01.gitter.im
+200    13.32.153.45    avatars-03.gitter.im
+Hit    91.189.89.122        packaging.ubuntu.com
+Hit    151.101.0.133        help.github.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+gpgtools.tenderapp.com
+Hit    172.217.22.74        ajax.googleapis.com
+200    192.228.96.17   gpgtools.tenderapp.com
+Hit    91.189.89.223        launchpad.net  
+dygqdiu5wzisf.cloudfront.net
+Hit    108.161.189.121      maxcdn.bootstrapcdn.com
+200    13.32.210.23    dygqdiu5wzisf.cloudfront.net
+Hit    82.195.75.112        wiki.debian.org
+kingfoo.disqus.com
+200    151.101.120.134 kingfoo.disqus.com
+Hit    95.143.172.182       gpgtools.org   
+Hit    151.101.0.134        disqus.com     
+Hit    104.16.77.166        c.disquscdn.com
+Hit    172.217.16.202       safebrowsing.googleapis.com
+Hit    91.189.89.69         help.launchpad.net
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    151.101.1.69         unix.stackexchange.com
+Hit    185.60.216.35        www.facebook.com
+Hit    185.60.216.19        static.xx.fbcdn.net
+Hit    151.101.16.64        glitter.services.disqus.com
+Hit    172.217.16.170       cuscochromeextension-pa.googleapis.com
+Hit    151.101.0.133        avatars3.githubusercontent.com
+Hit    192.30.253.124       live.github.com
+Hit    172.217.16.206       google.com     
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.comproductsearch.ubuntu.com
+
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+Exc                              productsearch.ubuntu.com
+ppa.launchpad.net
+ppa.launchpad.net
+200    91.189.95.83    ppa.launchpad.net
+200    91.189.95.83    ppa.launchpad.net
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.23.131       beacons3.gvt2.com
+Hit    172.217.23.131       www.googl.com  
+Hit    172.217.23.131       www.googl.com  
+Hit    91.189.95.83         ppa.launchpad.net
+Hit    91.189.95.83         ppa.launchpad.net
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    91.189.95.83         ppa.launchpad.net
+ Hit    91.189.95.83         ppa.launchpad.net
+Hit    91.189.95.83         ppa.launchpad.net
+Hit    91.189.95.83         ppa.launchpad.net
+Hit    172.217.16.206       play.google.com
+Hit    172.217.16.206       notifications.google.com
+Hit    192.30.253.113       github.com     
+camo.githubusercontent.com
+200    151.101.0.133   camo.githubusercontent.com
+Hit    192.30.253.124       live.github.com
+bugs.launchpad.net
+200    91.189.89.225   bugs.launchpad.net
+launchpadlibrarian.net
+200    91.189.89.229   launchpadlibrarian.net
+Hit    172.227.98.43        feeds.bbci.co.uk
+Hit    91.189.89.69         help.launchpad.net
+Hit    64.233.166.188       mtalk.google.com
+beacons.gvt2.com
+200    172.217.18.163  beacons.gvt2.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    192.30.253.113       github.com     
+Hit    151.101.0.133        avatars3.githubusercontent.com
+Hit    192.30.253.124       live.github.com
+Hit    192.30.253.113       github.com     
+ Hit    192.30.253.113       github.com     
+index.rubygems.org
+index.rubygems.org
+200    151.101.2.2     index.rubygems.org
+200    151.101.2.2     index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+ Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+ Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+ Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    64.233.166.188       mtalk.google.com
+Hit    74.125.206.189       9.client-channel.google.com
+Hit    162.213.33.133       daisy.ubuntu.comHit    162.213.33.133       daisy.ubuntu.com
+
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    151.101.2.2          index.rubygems.org
+ Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+Hit    151.101.2.2          index.rubygems.org
+rubygems.org
+rubygems.orgExc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+Hit    172.217.16.196       www.google.com 
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+Hit    172.217.16.206       clients6.google.com
+rubygems.org
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   Exc    8.8.8.8                   rubygems.org   
+
+Hit    172.217.16.202       safebrowsing.googleapis.com
+Hit    172.217.16.206       hangouts.google.com
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   rubygems.org
+
+Exc    8.8.8.8                   rubygems.org   
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   rubygems.org
+
+Exc    8.8.8.8                   rubygems.org   
+Hit    64.233.166.188       mtalk.google.com
+rubygems.orgrubygems.org
+Exc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+Hit    52.6.20.193          ws.gitter.im   
+Hit    52.6.20.193          ws.gitter.im   
+Hit    52.6.20.193          ws.gitter.im   
+Hit    52.6.20.193          ws.gitter.im   
+rubygems.org
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   rubygems.org   
+Hit    52.70.52.152         gitter.im      
+rubygems.org
+rubygems.orgExc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+Hit    52.6.20.193          ws.gitter.im   
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+ rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+Hit    172.217.16.206       play.google.com
+Hit    52.6.20.193          ws.gitter.im   
+Hit    172.217.16.206       google.com     
+rubygems.org
+ rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   rubygems.org   
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+Hit    172.217.18.163       beacons.gvt2.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   Exc    8.8.8.8                   rubygems.org   
+
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   rubygems.org
+
+Exc    8.8.8.8                   rubygems.org   
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+ rubygems.orgExc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+Hit    74.125.206.189       9.client-channel.google.com
+Hit    172.217.16.196       www.google.com 
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    74.125.206.189       9.client-channel.google.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    52.6.20.193          ws.gitter.im   
+beacons2.gvt2.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+rubygems.orgrubygems.org
+
+Exc    8.8.8.8                   rubygems.org   
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    172.217.21.202       www.googleapis.com
+Hit    172.217.23.131       beacons3.gvt2.com
+Hit    172.217.16.196       www.google.com 
+Hit    52.6.20.193          ws.gitter.im   
+Hit    52.70.52.152         gitter.im      
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+Exc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   beacons2.gvt2.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.196       www.google.com 
+Hit    172.217.16.206       clients4.google.com
+beacons4.gvt2.com
+rubygems.org
+ rubygems.org
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+Exc    8.8.8.8                   rubygems.org   Exc    8.8.8.8                   beacons2.gvt2.com
+Exc    8.8.8.8                   rubygems.org   
+
+www.google-analytics.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   www.google-analytics.com
+ Exc    8.8.8.8                   beacons4.gvt2.com
+beacons4.gvt2.com
+beacons2.gvt2.com
+Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+www.google-analytics.com
+Exc    8.8.8.8                   beacons4.gvt2.comExc    8.8.8.8                   beacons2.gvt2.com
+Exc    8.8.8.8                   www.google-analytics.com
+www.google-analytics.com
+
+Hit    151.101.2.2          index.rubygems.orgHit    151.101.2.2          index.rubygems.org
+
+beacons4.gvt2.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+beacons4.gvt2.com
+Hit    52.6.20.193          ws.gitter.im   
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+Hit    162.213.33.133       daisy.ubuntu.com
+beacons5.gvt2.com
+www.google-analytics.com
+Hit    162.213.33.133       daisy.ubuntu.comHit    162.213.33.133       daisy.ubuntu.com
+
+Exc    8.8.8.8                   beacons4.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+Exc    8.8.8.8                   www.google-analytics.com
+www.google-analytics.com
+Hit    64.233.166.188       mtalk.google.com
+Hit    172.217.16.196       www.google.com 
+beacons4.gvt2.com
+Hit    52.6.20.193          ws.gitter.im   
+Hit    74.125.206.189       9.client-channel.google.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   www.google-analytics.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons5.gvt2.com
+www.google-analytics.com
+beacons5.gvt2.com
+www.google-analytics.com
+rubygems.org
+rubygems.org
+Hit    172.217.16.202       safebrowsing.googleapis.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+Exc    8.8.8.8                   www.google-analytics.comExc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   www.google-analytics.com
+
+Exc    8.8.8.8                   rubygems.org   
+beacons4.gvt2.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+Hit    172.217.16.206       play.google.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   www.google-analytics.com
+www.google-analytics.com
+rubygems.org
+ rubygems.org
+Exc    8.8.8.8                   beacons4.gvt2.com
+Exc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   beacons5.gvt2.com
+Exc    8.8.8.8                   rubygems.org   Exc    8.8.8.8                   www.google-analytics.com
+
+beacons5.gvt2.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+rubygems.org
+ rubygems.org
+beacons5.gvt2.com
+Exc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   rubygems.org   Exc    8.8.8.8                   beacons5.gvt2.com
+
+beacons5.gvt2.com
+rubygems.org
+rubygems.org
+Exc    8.8.8.8                   beacons5.gvt2.comExc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   rubygems.org   
+
+Hit    172.217.16.206       google.com     
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+rubygems.orgrubygems.org
+
+beacons5.gvt2.com
+Exc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   beacons5.gvt2.com
+Exc    8.8.8.8                   rubygems.org   
+Hit    104.237.191.1        beacons5.gvt3.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+ Hit    172.217.16.206       clients2.google.com
+Hit    172.217.21.202       www.googleapis.com
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    192.30.253.113       github.com     
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    192.30.253.113       github.com     
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   rubygems.org
+
+Exc    8.8.8.8                   rubygems.org   
+Hit    172.217.16.196       www.google.com 
+Hit    192.30.253.113       github.com     
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+rubygems.org
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+Exc    8.8.8.8                   rubygems.org   
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    198.252.206.25       qa.sockets.stackexchange.com
+Hit    192.30.253.113       github.com     
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+rubygems.org
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   Exc    8.8.8.8                   rubygems.org   
+
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    172.217.16.206       clients4.google.com
+Hit    172.217.16.195       clientservices.googleapis.com
+Hit    172.217.16.206       clients4.google.com
+Hit    192.30.253.113       github.com     
+Hit    192.30.253.113       github.com     
+Hit    172.217.16.206       clients4.google.com
+Hit    192.30.253.113       github.com     
+Hit    172.217.18.163       beacons.gcp.gvt2.com
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    192.30.253.113       github.com     
+Hit    172.217.18.163       beacons.gvt2.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    192.30.253.113       github.com     
+Hit    192.30.253.113       github.com     
+Hit    172.217.16.206       clients4.google.com
+Hit    192.30.253.113       github.com     
+Hit    172.217.16.196       www.google.com 
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+rubygems.orgExc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    192.30.253.113       github.com     
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+rubygems.orgExc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   Exc    8.8.8.8                   rubygems.org   
+
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+www.google-analytics.com
+Exc    8.8.8.8                   www.google-analytics.com
+Hit    52.6.20.193          ws.gitter.im   
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+rubygems.org
+rubygems.orgExc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc    8.8.8.8                   productsearch.ubuntu.comExc    8.8.8.8                   productsearch.ubuntu.com
+
+Hit    172.217.23.131       beacons3.gvt2.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+productsearch.ubuntu.com
+Exc    8.8.8.8                   productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc    8.8.8.8                   productsearch.ubuntu.com
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+rubygems.orgrubygems.org
+Exc    8.8.8.8                   rubygems.org   
+
+Exc    8.8.8.8                   rubygems.org   
+productsearch.ubuntu.com
+Exc    8.8.8.8                   productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc    8.8.8.8                   productsearch.ubuntu.com
+Hit    192.30.253.113       github.com     
+beacons2.gvt2.com
+Exc    8.8.8.8                   beacons2.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+rubygems.org
+Exc    8.8.8.8                   rubygems.org   
+productsearch.ubuntu.com
+Exc    8.8.8.8                   productsearch.ubuntu.com
+productsearch.ubuntu.com
+Exc    8.8.8.8                   productsearch.ubuntu.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+beacons5.gvt2.com
+Exc    8.8.8.8                   beacons5.gvt2.com
+beacons4.gvt2.com
+Exc    8.8.8.8                   beacons4.gvt2.com
+beacons5.gvt2.com

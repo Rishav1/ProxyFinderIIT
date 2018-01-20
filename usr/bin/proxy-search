@@ -1,0 +1,229 @@
+#!/bin/bash
+
+usage()
+{
+	echo "Usage: $0 [-h] [-S] [-s start_address end_address] [-f destination_filename] [-p \"space seperated list of ports\"]"
+	echo 
+	echo "	-h, --help			display help"
+	echo "	-s, --subnet		start and end ip addresses"
+	echo "	-p, --ports			space seperated list of ports"
+	echo "	-f, --filename 		destination file to store proxies"
+	echo "	-S, --silent		supress output"
+	echo "	-t, --timeout		timeout for verification"
+	echo "	-r, --reval			re-evaluate list of proxies specefied in filename"
+
+	exit 1
+}
+
+EXPECTED_OUTPUT="Google is built by a large team of engineers, designers, researchers, robots, and others in many different sites across the globe. It is updated continuously, and built with more tools and technologies than we can shake a stick at. If you'd like to help us out, see google.com/careers."
+
+timeout=0.015
+start_address=172.16.0.1
+end_address=172.16.127.255
+filename=~/proxylist.txt
+ports="8080 3128 808"
+silent=0
+reval=0
+
+while [[ "$1" != "" ]]; do
+	case $1 in
+		-f | --file   	)		shift
+								filename=$1
+								;;
+		-s | --subnet	)		shift
+								start_address=$1
+								shift
+								end_address=$1
+								;;
+		-p | --ports	)		shift
+								ports=$1
+								;;
+		-h | --help	)         	usage
+								exit
+								;;
+		-t | --timeout  )		shift
+								timeout=$1
+								;;
+		-S | --silent	)		silent=1
+								;;
+		-r | --reval 	)		reval=1
+								;;
+		*		)				exit 1
+	esac
+	shift
+done
+
+working=1
+
+
+if [[ $reval -eq 1 ]]
+then
+	if [ -f $filename ]
+	then
+		cp $filename $filename.bak
+		> $filename
+	
+		while IFS= read -r var
+		do
+			if [[ "$(http_proxy=$var curl -s --connect-timeout $timeout www.google.com/humans.txt)" == "$EXPECTED_OUTPUT" ]]
+			then
+				working=0
+				if [[ $silent -eq 0 ]]; then
+					echo $var
+				fi
+				echo $var >> $filename
+			fi	
+		done < "$filename.bak"
+		
+		if [[ $working -eq 1 ]]
+		then
+			echo "No proxies found."
+			exit $working
+		else
+			exit $working
+		fi	
+	
+	else
+		echo "No proxylist found."
+		exit $working
+	fi
+fi
+
+if [ -f $filename ]
+then
+	> $filename
+fi
+
+REGEX='^[1-9][0-9]{,2}[.]([0-9]{1,3}[.]){2}[0-9]{1,3}$'
+BEGIN=$start_address
+END=$end_address
+
+if ! [[ $BEGIN =~ $REGEX && $END =~ $REGEX ]]
+then
+    usage
+elif [[ ${BEGIN%[0-9]*} == ${END%[0-9]*} ]]
+then
+    SUBNET=${BEGIN%[.][0-9]*}
+    START=${BEGIN##*.}
+    STOP=${END##*.}
+
+    while (( START <= STOP ))
+	do
+	    # if [[ $silent -eq 0 ]]; then
+	    # 	echo "Testing -> $SUBNET.$START"
+	    # fi
+	    for PORT in $ports
+			do
+				if [[ "$(http_proxy=$SUBNET.$START:$PORT curl -s --connect-timeout $timeout www.google.com/humans.txt)" == "$EXPECTED_OUTPUT" ]]
+				then
+					working=0
+					echo "$SUBNET.$START:$PORT" >> $filename
+					if [[ $silent -eq 0 ]]; then
+						echo "$SUBNET.$START:$PORT"
+					fi
+				fi  &
+			done
+	    ((START++))
+	done
+	exit $working
+
+elif [[ ${BEGIN%[.][0-9]*[.][0-9]*} == ${END%[.][0-9]*[.][0-9]*} ]]
+then
+	TEMP=${BEGIN%[.][0-9]*}
+	START1=${TEMP##*.}
+	TEMP=${END%[.][0-9]*}
+	STOP1=${TEMP##*.}
+	SUBNET=${BEGIN%[.][0-9]*[.][0-9]*}
+	START2=${BEGIN##*.}
+	STOP2=${END##*.}
+
+
+	TEMP1=$START1
+	while (( TEMP1 <= STOP1 ))
+	do
+		if (( TEMP1 == START1 ))
+		then
+			TEMP2_ST=$START2
+			TEMP2_EN=255
+		elif (( TEMP1 == STOP1 ))
+		then
+			TEMP2_ST=0
+			TEMP2_EN=$STOP2
+		else
+			TEMP2_ST=0
+			TEMP2_EN=255
+		fi
+
+		TEMP2=$TEMP2_ST
+		while (( TEMP2 <= TEMP2_EN ))
+		do
+			# if [[ $silent -eq 0 ]]; then
+	  #   			echo "Testing -> $SUBNET.$TEMP1.$TEMP2"
+			# fi
+			for PORT in $ports
+			do
+				if [[ "$(http_proxy=$SUBNET.$TEMP1.$TEMP2:$PORT curl -s --connect-timeout $timeout www.google.com/humans.txt)" == "$EXPECTED_OUTPUT" ]]
+				then
+					working=0
+					echo "$SUBNET.$TEMP1.$TEMP2:$PORT" >> $filename
+					if [[ $silent -eq 0 ]]; then
+			    		echo "$SUBNET.$TEMP1.$TEMP2:$PORT"
+					fi
+				fi  &
+			done
+			((TEMP2++))
+		done
+		((TEMP1++))
+	done
+	exit $working
+else
+    echo "First two octets must match when entering range!!"
+    exit 2
+fi
+
+: <<=cut
+=pod
+
+=head1 NAME
+
+   proxy-search - search for open proxies over a list of ports within a subnet range rechable locally.
+
+=head1 SYNOPSIS
+
+   proxy-search [-h] [-S] [-r] [-s <start_address> <end_address>] [-f <destination_filename>] [-p <ports>] [-t <timeout>]
+
+      where: <start_address>		starting IP address of the range.
+	     <end_address>   		ending IP address of the range.
+	     <destination_filename>	output file for storing open proxies.
+	     <ports>			space sepeated list of ports for checking proxies.
+	     <timeout>			timeout for verification
+
+   Recognized optional command line arguments
+      -h				-- Display help
+      -S				-- Run in silent mode
+      -r 				-- Re-evaluate and upadte the existing list of proxies
+      -s <start_address> <end_address>	-- Set IP range for subnet search
+      -f <destination_filename>		-- Set proxy output file
+      -p <ports>			-- Set list of ports to be checked
+      -t <timeout>			-- Set the timeout for individual proxy verification
+
+=head1 DESCRIPTION
+
+proxy-search is a shell program for discovering open http and https proxy servers hosted 
+over some common ports within a local subnet. The discovered proxies are stored at ~/proxylist.txt 
+by default and can be changed.
+
+=head2 Requirements
+
+First two octets of the start and end IP address must be the same.
+
+=head1 LICENSE
+
+License GPL-2+ https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+
+=head1 AUTHOR
+
+Rishav Chourasia <rishav.chourasia@gmail.com>
+
+=cut

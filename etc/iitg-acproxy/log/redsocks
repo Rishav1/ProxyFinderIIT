@@ -1,0 +1,27 @@
+
+base {
+	log_debug = off;
+	log_info = off;
+	log = stderr;
+	daemon = off;
+	redirector = iptables;
+}
+redsocks {
+	local_ip = 0.0.0.0;
+	local_port = 8123;
+	ip = 172.16.20.15;
+	port = 8080;
+	type = http-relay;
+	login = "";
+	password = "";
+}
+redsocks {
+	local_ip = 0.0.0.0;
+	local_port = 8124;
+	ip = 172.16.20.15;
+	port = 8080;
+	type = http-connect;
+	login = "";
+	password = "";
+}
+
