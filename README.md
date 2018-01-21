@@ -29,7 +29,7 @@ Makes it possible to access internet without having to change proxy settings, ev
 proxy servers are almost always available in IITG campus 24/7).
 
 ```bash
-proxy-search [--config] {start, stop, restart, status}
+iitg-acproxy [--config] {start, stop, restart, status}
 ```
 
 	* --config		-- Configure subnet, ports and timeout setting for proxy search.
